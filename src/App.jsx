@@ -17,7 +17,7 @@ import DocumentPage from "./pages/DocumentPage.jsx";
 import DocumentListPage from "./pages/DocumentListPage.jsx";
 import Scrap from "./pages/Scrap.jsx";
 import { store, persistor } from "./store/store.js";
-import { AxiosInterceptor } from "./services/index.jsx";
+import { AxiosInterceptor } from "./services/interceptor.jsx";
 
 function App() {
   return (
